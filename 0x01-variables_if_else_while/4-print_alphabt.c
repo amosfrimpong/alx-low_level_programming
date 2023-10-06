@@ -3,8 +3,8 @@
 /**
  *main- the entry point of the program
  *
- *Returns: Returns 0 on Sucess
-  */
+ *Return: Returns 0 on Sucess
+ */
 
 int main(void)
 {
