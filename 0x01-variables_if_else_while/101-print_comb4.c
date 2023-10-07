@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main- the entry point of the program
+ * main- The Entery point
  *
  * Return: 0 on Success
  */
@@ -13,7 +13,6 @@ int main(void)
 	int k;
 
 	for (i = 0; i <= 9; i++)
-
 	{
 		for (j = 0; j <= 9; j++)
 		{
@@ -21,18 +20,20 @@ int main(void)
 			{
 				if (i != j && i != k && j != k && i < j && i < k && j < k)
 				{
-				 putchar ('0' + i);
-				 putchar ('0' + j);
-				 putchar ('0' + k);
+					putchar('0' + i);
+					putchar('0' + j);
+					putchar('0' + k);
 
-				if (!(i == 7 && j == 8 && k == 9))
-				{
-				putchar (',');
-				putchar (' ');
-				}
+					if (!(i == 7 && j == 8 && k == 9))
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
 			}
 		}
 	}
-				return (0);
+	putchar('\n');
+
+	return (0);
 }
