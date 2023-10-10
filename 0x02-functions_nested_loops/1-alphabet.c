@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 
-
 /**
- * void: Print Alphabet
+ *print_alphabet- A Program to Print Alphabet in lowercase
  *
- * Return: Nothing
+ *Return: Nothing
  *
  */
 
