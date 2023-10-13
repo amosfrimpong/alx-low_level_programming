@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- *print_numbers: priunt Numbers
- *
+ *print_numbers- priunt Numbers
  *Return: Nothing
- *
  */
 
 void print_numbers(void)
